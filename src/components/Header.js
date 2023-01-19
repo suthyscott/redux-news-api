@@ -21,7 +21,7 @@ const Header = () => {
   }
 
   return (
-    <div>
+    <div className='bg-gray-500'>
       <NavLink to='/'>Home</NavLink>
       <NavLink to='/details'>Details</NavLink>
 

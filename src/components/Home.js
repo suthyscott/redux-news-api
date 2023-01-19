@@ -27,7 +27,7 @@ const Home = () => {
     )
   })
   return (
-    <div className='article-tiles-container'>
+    <div className='flex flex-wrap'>
       {articlesDisplay}
     </div>
   )
